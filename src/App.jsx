@@ -71,7 +71,15 @@ function App() {
       className="checker-background flex flex-col items-center p-5"
       style={{ marginBottom: `${detailHeight}px` }}
     >
-      <div className="mt-25 flex w-full max-w-[40em] items-center justify-center lg:mt-34">
+      <div className="mt-25 flex w-full max-w-[40em] flex-col items-center justify-center lg:mt-34">
+        <h1 className="mb-4 font-[Poppins] text-3xl font-light text-[#2D2D31]">
+          Why Appwrite?
+        </h1>
+        <p className="mb-8 text-center text-[#2D2D31]">
+          Appwrite empowers developers to ship production-grade apps faster by delivering open-source, self-hostable backend services—auth, realtime databases, storage, and now Sites for instant static deploys like this one-page showcase I hosted in minutes using your React starter.
+        </p>
+      </div>
+      <div className="flex w-full max-w-[40em] items-center justify-center">
         <div className="rounded-[25%] border border-[#19191C0A] bg-[#F9F9FA] p-3 shadow-[0px_9.36px_9.36px_0px_hsla(0,0%,0%,0.04)]">
           <div className="rounded-[25%] border border-[#FAFAFB] bg-white p-5 shadow-[0px_2px_12px_0px_hsla(0,0%,0%,0.03)] lg:p-9">
             <img
